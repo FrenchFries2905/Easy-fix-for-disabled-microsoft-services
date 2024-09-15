@@ -1,0 +1,21 @@
+turned off microsoft services fix
+
+something happened and your pin isnt available/disabled microsoft services
+
+steps:
+open safe mode
+enter bitlocker recovery key if asked
+advance settings
+change directory from command prompt cd c/c:
+cd windows cd system32
+ren utilman.exe utilman1.exe
+ren cmd.exe utilman.exe
+restart and click on the accessibility icon on lock screen 
+cmd prompt will open type start msconfig
+select normal boot and restart
+link: 
+https://answers.microsoft.com/en-us/windows/forum/all/diagnostic-mode-something-happened-and-your-pin/128dc83b-52e4-4987-bece-d6b9b416fe60
+
+renaming utilman and cmd: 
+https://winaero.com/how-to-take-ownership-and-get-full-access-to-files-and-folders-in-windows-10/amp/ 
+Winaero
